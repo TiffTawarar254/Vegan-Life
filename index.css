@@ -1,0 +1,884 @@
+ @import url('https://fonts.googleapis.com/css?family=Caveat|Poppins&display=swap');
+/*main page stylings*/
+html{
+box-sizing: border-box;
+scroll-behavior: smooth;
+margin:0;
+padding:0;
+width:1200px;
+height:100%;
+}
+/*.section2{
+	background:url("https://firebasestorage.googleapis.com/v0/b/demoapi-43d03.appspot.com/o/landing-background.png?alt=media");
+	min-height: 100vh;
+	min-width:100vw;}*/
+header{
+			background: url('https://firebasestorage.googleapis.com/v0/b/demoapi-43d03.appspot.com/o/landing-background.png?alt=media');
+			margin: 0;	
+			height: 110vh;
+			
+				}
+body{
+					margin:0;
+					padding:0;
+				}
+footer{
+	width:1200px;
+	background-color:#232323;
+	text-align: center;
+	color:white;
+	font-size:14px;
+	letter-spacing: 0.5px;
+	padding:30px 0;
+	font-family: 'Poppins', sans-serif;
+}
+main{
+	padding:0;
+	margin:0;
+}
+p{
+	font-size:16px;
+	color:#8b8b99;
+	letter-spacing: .5px;
+	margin:1em auto;
+	font-family:'Poppins', sans-serif;
+	text-align: center;
+}
+h3{
+	font-family: 'Poppins', sans-serif;
+	font-size: 44px;
+	font-weight: bolder;
+	line-height: 1.2;
+	padding:0;
+	text-align: center;
+}
+.green-text{
+	color: #91ac41;
+	font-size: 24px;
+	font-family: 'Caveat', cursive;
+	margin:0;
+	margin-top:35px;
+}
+/*main page stylings ended*/
+/*final page stylings start*/
+
+form{
+font-family: 'Poppins', sans-serif;
+
+}
+
+.input-item{
+	width:85%;
+	margin:10px;
+	padding:14px;
+	font-size:16px;
+	color:#8b8b99;
+	letter-spacing: .5px;	
+	font-family:'Poppins', sans-serif;
+	background-color: white;
+	border:1px solid #e5e6ec;
+	border-radius:5px;
+
+}
+
+.final-section{
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	flex-direction: row
+	justify-content: space-between;
+	height:100%;	
+	margin:0 50px;
+	padding:100px 0px;
+	max-width:90%;
+	align-items: left;
+
+}
+
+
+.submit{
+	
+	font-family:'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: white;
+	background-color:rgb(170, 210, 54);
+	padding: 9px 34px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	cursor:pointer; }
+
+
+
+.more{
+	text-align: left;
+	font-size:16px;
+	font-weight: 400;
+	letter-spacing: .5;
+	color:#8b8b99;
+
+}
+/*final page stylings end*/
+/*vimeo video page stylings start*/
+
+.video-section{
+	margin:0;
+	font-family:'Poppins', sans-serif;	
+	text-align: center;
+}
+.video{
+	margin-top: 50px;
+	text-align: center;
+	
+}
+.video-heading{
+	margin:0;
+	font-size:44px;
+	font-weight:bold;
+	color:#8b8b99;
+	padding-bottom:30px;
+	}
+
+	.line{
+		border-bottom:1px solid orange;
+		width:100px;
+		margin:40px 45%;
+	}
+	/*vimeo video page styling*/
+	/*statistics page styling*/
+	.stat-paragraph{
+		color:black;
+	}
+	.stats{
+		width:100vw;		
+		padding:50px 0;
+		background:#f6fcfa;
+		display:flex;
+		justify-content: stretch;
+		font-family:'Poppins', sans-serif;
+
+	}
+	.statistic{
+		padding:0 100px;
+		text-align:center;
+	}
+	
+	.statistic p{
+		color:#57e3b5;
+	}
+	/*statistics page styling end*/
+	/*subscribe page styling start*/
+	.subscribe-section{
+		width:100vw;
+		display:flex;
+		flex-direction: row;
+		justify-content: stretch;
+		flex:60% 30%;
+	}
+	.subscribe-follow-us{
+		opacity: .8;
+		background:url('https://firebasestorage.googleapis.com/v0/b/demoapi-43d03.appspot.com/o/strawberry-white.png?alt=media');
+		padding:20px;
+		}
+		
+		.subscribe{
+			font-family:'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: white;
+	background-color:#f69dad;
+	padding: 9px 34px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	cursor:pointer;
+	border:none;
+	outline:none;
+		}
+	/*subscribe page styling end*/	
+		/*testimonials page styling start*/
+		.testimonials{
+			display:flex;
+			justify-content: stretch;
+			flex-direction: row;
+			text-align: center;
+			padding:15px;
+			margin:0;
+
+			
+		}
+		.comment{
+			background: #f5f6fb;
+			width:25vw;
+			border-radius:45px 0 45px 45px;
+			padding:0 20px;
+			margin:0 20px;
+			transition: box-border 0.3s;
+		}
+		.comment2{
+			height:70vh;
+		}
+		.spread{
+			padding:10px;
+			margin:0 20px;
+			
+		}
+		.pic1{
+			border-radius: 50%;
+			width: 80px;
+			padding:20px;
+		}
+		.comment-paragraph{
+			font-family:'Poppins', sans-serif;
+			font-size: 14px;
+			letter-spacing: 0.5px;
+			font-style: Italic;
+			color: #8b8b99;
+		}
+		.boss{
+			font-family:'Poppins', sans-serif;
+			font-size: 16px;
+			font-weight: 600;
+			
+		}
+		.boss-role{
+			font-size: 14px;
+		}		
+		
+		/*testimonials page styling*/
+		/*store page styling*/
+		h4{
+		font-family:'Poppins', sans-serif;	
+		}
+		.food-varieties{
+			display:flex;
+			justify-content: stretch;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			text-align: center;
+			padding:20px;
+			margin:0 30px;
+			width:1200px;
+		}
+		.green-text,.store-heading{
+			text-align: center;
+		}
+		.store-section{
+			font-family:'Poppins', sans-serif;
+			background:;
+			width:100%;
+			background-color:#f7eee2;
+			height:100%;
+			text-align:center;
+			margin-top: 0;
+			margin:0;
+			padding:0;
+		}
+		.store-message{
+			text-align: center;
+			line-height:0;
+			padding-top:50px;
+		}
+		.wrapped1{
+		width:20vw;
+		padding:20px;
+		margin:0;
+		}
+		.store-icon{
+			
+			color:white;
+			border-radius:50%;
+			background-color: #e3b375;	
+			padding:30px 0;		
+			width:100px;
+			align-items: center;
+			margin:0 60px;
+			margin-bottom:0;}
+		/*store page styling end*/
+
+		/*steps page styling start*/
+		
+		.st1{background:#5acda6;}
+		.st2{background:#91ac41;}
+		.st3{background: #e4b476;}
+		.st4{background:#f69dad;}
+		
+		.steps-outline{
+		display:flex;
+		justify-content: stretch;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		text-align: center;
+		margin:0;				
+		font-family: 'Poppins', sans-serif;
+		}
+		.step{
+			height:120vh;
+			width:21vw;
+			padding:20px 2px ;			
+			margin:0 20px;
+			color:white;
+
+		}
+		.step-icon{
+			color:white;
+			padding:20px;
+			font-size:80px;
+			margin:20%;
+
+		}
+		
+		
+		.steps-paragraph{
+			color:white;
+			font-size:.7rem;		}
+		/*steps page styling end*/
+		/*landing page styling start*/
+
+		.landing-message-h1{
+		font-family: 'Poppins', sans-serif;
+		font-size: 44px;
+		font-weight: 900;
+		letter-spacing: 8.8px;
+		line-height: 1.2;
+		width:100vw;
+		align-items: center;
+
+		}
+		.landing-message-p{
+		font-family: 'Poppins', sans-serif;
+		font-size: 14px;
+		letter-spacing: 0.5px;
+		font-weight: 400;
+		color: #8b8b99;
+		width:90vw;
+		align-items: center;
+		}
+		.landing-page{
+			height:100vh;
+			width:100%;
+			
+		}
+		.landing-message{
+			padding-top:100px;
+			text-align: center;
+		}
+		
+		/*landing page styling end*/
+		/* menu bar styling start*/
+		
+				.menu-section{
+					margin: 0
+				}
+				.logo{
+					width:40px;
+				}
+				
+		nav{	
+			margin:0px;			
+			background-color: white;
+		    width: 100%;
+		    height: 77px;
+		    display: flex;
+		    justify-content: space-between;
+		    align-items: center;
+		    padding: 0 28px;
+		    box-sizing: border-box;
+		    position: fixed;
+		}
+		.menu{
+			display: flex;
+			justify-content: space-around;
+			margin:0;
+			padding:20px;
+
+		}
+		.menu-section{
+			margin: 0;
+			padding:0;
+		}
+		
+		span a{
+			font-family: 'Poppins', sans-serif;
+			color: black;
+			font-weight: 600;
+			font-size: 14px;
+			margin-right: 25px;
+		}
+		.dropdown a:hover .options{
+			display: block;
+		}
+		span{
+			padding:0 5px;
+		}
+		span i{
+			margin-right: 10px;
+		}
+		.options a{
+			display:none;
+			font-family: 'Poppins', sans-serif;
+			border-top: 2px solid rgb(170, 210, 54);
+			background: white;
+			
+		}
+		.cta{
+			font-family: 'Poppins', sans-serif;
+			font-size: 12px;
+			font-weight:  600;
+			color:  white;
+			background-color:  rgb(170, 210, 54);
+			padding:  5px 34px;
+			border-radius: 4px;
+			border:none;
+			outline:none;
+			text-transform: uppercase;
+		}
+		button{
+			padding-top:10px;
+		}
+		.menu{
+			margin-left: 20px;
+		}
+		/* menu bar styling end*/
+@media & 
+ (max-width:800px){
+	.steps-outline{
+		display:block;
+	}
+}
+/*Section 1:
+
+Background Image: https://firebasestorage.googleapis.com/v0/b/demoapi-43d03.appspot.com/o/landing-background.png?alt=media
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Caveat', cursive;
+
+Topbar Logo URL: https://mobirise.com/extensions/organicamp/assets/images/logo1.jpg
+
+
+
+Menu Items:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Color: black;
+
+Font Thickness: 600;
+
+Font Size: 14px;
+
+
+
+Dropdown:
+
+Font Family: 'Poppins', sans-serif;
+
+Top Border: 2px solid rgb(170, 210, 54);
+
+Background Color: white;
+
+Shadow: 0 2px 5px #ccc;
+
+
+
+Buy-Now Button:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 12px;
+
+Font Thickness: 600;
+
+Text Color: white;
+
+Background Color: rgb(170, 210, 54);
+
+Padding: 9px 34px;
+
+Border Radius: 4px;
+
+
+
+Section 1 Heading:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 44px;
+
+Font Thickness: 600;
+
+Letter Spacing: 8.8px;
+
+Line Height: 1.2;
+
+
+
+Section 1 Description:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 14px;
+
+Letter Spacing: 0.5px;
+
+Font Thickness: 400;
+
+Color: #8b8b99;
+
+
+
+==========
+
+
+
+Section 2:
+
+
+
+Step 1:
+
+icon: <i class="fa fa-cut"></i>
+
+Background color: #5acda6
+
+
+
+Step 2:
+
+icon: <i class="fa fa-paint-brush"></i>
+
+Background color: #91ac41;
+
+
+
+Step 3:
+
+icon: <i class="fa fa-shopping-bag"></i>
+
+Background color: #e4b476;
+
+
+
+Step 4:
+
+icon: <i class="far fa-smile"></i>
+
+Background color: #f69dad;
+
+
+
+
+
+Step Icon Width/Font-Size: 96px;
+
+
+
+Step Label:
+
+Font Family: 'Poppins', sans-serif;
+
+Font Thickness: 600;
+
+Text Size: 24px;
+
+
+
+Step Description:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 14px;
+
+Letter Spacing: 0.5px;
+
+Line Height: 1.6;
+
+
+
+==========
+
+
+
+Section 3:
+
+
+
+Background color: #f7eee2;
+
+
+
+Fresh Food Text:
+
+Text Color: #91ac41;
+
+Text Size: 24px;
+
+Font Family: 'Caveat', cursive;
+
+Margin: 0;
+
+Margin Top: 35px;
+
+
+
+Section 3 Heading:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 44px;
+
+Font Thickness: 600;
+
+
+
+Section 3 Description:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 16px;
+
+Font Thickness: 500;
+
+Text Color: #8b8b99;
+
+Letter Spacing: 0.5px;
+
+
+
+Icon 1:
+
+<i class="fa fa-camera">
+
+
+
+Icon 2:
+
+<i class="fa-rocket fa">
+
+
+
+Icon 3:
+
+<i class="fab fa-twitter">
+
+
+
+Icon 4:
+
+<i class="fab fa-weixin"></i>
+
+
+
+Item Icon:
+
+Background Color: #e3b375
+
+Width/Font-Size: 60px;
+
+
+
+Item Heading:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 24px;
+
+Font Thickness: 600;
+
+
+
+Item Description:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 16px;
+
+Letter Spacing: 0.5px;
+
+Font Thickness: 500;
+
+Text Color: #8b8b99;
+
+
+
+==========
+
+
+
+Section 4: 
+
+
+
+Fresh Food Text:
+
+Text Color: #91ac41;
+
+Text Size: 24px;
+
+Font Family: 'Caveat', cursive;
+
+Margin: 0;
+
+Margin Top: 35px;
+
+
+
+Section 4 Heading:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 44px;
+
+Font Thickness: 600;
+
+
+
+Section 4 Description:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 16px;
+
+Font Thickness: 500;
+
+Text Color: #8b8b99;
+
+Letter Spacing: 0.5px;
+
+
+
+Testimonial Image 1:
+
+URL: https://mobirise.com/extensions/organicamp/assets/images/face5.jpg
+
+
+
+Testimonial Image 2:
+
+URL: https://mobirise.com/extensions/organicamp/assets/images/face6.jpg
+
+
+
+Testimonial Image 3:
+
+URL: https://mobirise.com/extensions/organicamp/assets/images/face7.jpg
+
+
+
+Testimonial Card:
+
+Background Color: #f5f6fb;
+
+Top-left Border Radius: 45px;
+
+Bottom-left Border Radius: 45px;
+
+Bottom-right Border Radius: 45px;
+
+
+
+Testimonial Card Image:
+
+Border Radius: 50%;
+
+Width: 80px;
+
+
+
+Testimonial Card Message:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 14px;
+
+Letter Spacing: 0.5px;
+
+Font Style: Italic;
+
+Text Color: #8b8b99;
+
+
+
+Testimonial Card Author:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 16px;
+
+Font Thickness: 600;
+
+
+
+Testimonial Card Author:
+
+Font Family: 'Poppins', sans-serif;
+
+Text Size: 12px;
+
+Text Color: #8b8b99;
+
+Font Style: Italic;
+
+
+
+==========
+
+
+
+Section 5:
+
+
+
+Left Image URL: https://mobirise.com/extensions/organicamp/assets/images/19.jpg
+
+
+
+Right Background Image: https://firebasestorage.googleapis.com/v0/b/demoapi-43d03.appspot.com/o/strawberry-white.png?alt=media
+
+
+
+Subscribe Button:
+
+Background Color: #f69dad;
+
+
+
+==========
+
+
+
+Section 6:
+
+
+
+Stats Item Green Color:
+
+
+
+==========
+
+
+
+Section 7:
+
+
+
+Video URL: https://player.vimeo.com/video/275412279
+
+
+
+==========
+
+
+
+Section 8:
+
+Figure it out. The styles are same as other sections.
+
+
+
+==========
+
+
+
+Section 9:
+
+Footer Background Color: #232323*/
